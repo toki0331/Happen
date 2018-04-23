@@ -13,9 +13,9 @@
             android:shape="rectangle">
             //outline
             <stroke android:color="#A9A9A9"
-                android:width="0.5dp"/>
+                android:width="2dp"/>
             //inside
-            <solid android:color="#FFFFFF"/>
+            <solid android:color="#ffffff"/>
         </shape>
     </item>
 

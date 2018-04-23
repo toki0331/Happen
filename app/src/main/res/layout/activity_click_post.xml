@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toki.merge_include.ClickPost">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+        layout="@layout/tab_layout_click_post">
+    </include>
+
+    <include
+        layout="@layout/layout_card_click"/>
+
+
+        <LinearLayout
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/repRecycleView">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <include
+            layout="@layout/rep_post"/>
+        </LinearLayout>
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="43dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="26dp"
+            android:layout_marginEnd="17dp"
+            android:elevation="6dp"
+            android:src="@drawable/ic_reply"
+            tools:layout_editor_absoluteX="328dp"
+            tools:layout_editor_absoluteY="511dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

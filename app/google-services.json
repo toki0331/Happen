@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "909623370102",
+    "firebase_url": "https://happen-b51c0.firebaseio.com",
+    "project_id": "happen-b51c0",
+    "storage_bucket": "happen-b51c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909623370102:android:858e5876d46d84c2",
+        "android_client_info": {
+          "package_name": "com.example.toki.merge_include"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909623370102-rhevctlvl6f9t19ncgl1v7ba3854fubl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe1zvL7tLizaiFKx1AEC9PYEq3kcARCTo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

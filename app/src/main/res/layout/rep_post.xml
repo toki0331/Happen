@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:contentPaddingRight="10dp"
+        app:contentPaddingLeft="10dp"
+        app:cardMaxElevation="15dp">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/post_profileImage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="top"
+                android:src="@drawable/profile"
+                app:civ_border_color="#FF0099"
+                app:civ_border_width="1dp" />
+
+            <EditText
+                android:id="@+id/post_text"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="comment this post?!"
+                android:textSize="20dp"
+                android:background="@null"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp">
+            <ImageView
+                android:id="@+id/location"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_post_location"/>
+            <TextView
+                android:hint="Gurgaon,India"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+            <ImageView
+                android:src="@drawable/ic_post_addphoto"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/postPhoto"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="add photo"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
+</merge>

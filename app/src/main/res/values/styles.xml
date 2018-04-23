@@ -1,11 +1,28 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">#b0b0b0</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/AppDrawerArrowToggle</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
+
+    <style name="AppDrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#000000</item>
+    </style>
+    
+    
+    <style name="AppTheme.toolBar" parent="AppTheme">
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:colorControlNormal">#ff0099</item>
+    </style>
+
 
 </resources>

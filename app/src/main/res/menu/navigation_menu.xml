@@ -5,10 +5,16 @@
     <item android:title=""/>
     <item android:title=""/>
     <item android:title=""/>
-
+    <item android:title=""/>
     <item android:id="@+id/profile"
         android:icon="@drawable/ic_person_black_24dp"
         android:title="Profile"/>
+    <item android:id="@+id/login"
+        android:icon="@drawable/ic_login"
+        android:title="Add Exsist Account"/>
+    <item android:id="@+id/createAccount"
+        android:icon="@drawable/ic_action_name"
+        android:title="Create Account"/>
     <item android:id="@+id/list"
         android:icon="@drawable/ic_list"
         android:title="Lists"/>
@@ -16,45 +22,16 @@
         android:icon="@drawable/ic_moment"
         android:title="Moment"/>
     <item android:id="@+id/hightlights"
-        android:icon="@drawable/ic_hot"
+        android:icon="@drawable/ic_hightlight"
         android:title="Hightlights"/>
+    <item android:id="@+id/setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Setting"/>
+    <item android:id="@+id/privacy"
+        android:icon="@drawable/ic_privacy"
+        android:title="Privacy"/>
+    <item android:id="@+id/helpCenter"
+        android:icon="@drawable/ic_help_center"
+        android:title="Help Center"/>
 
-    <item android:id="@+id/profile1"
-        android:icon="@drawable/ic_person_black_24dp"
-        android:title="Profile"/>
-    <item android:id="@+id/list1"
-        android:icon="@drawable/ic_list"
-        android:title="Lists"/>
-    <item android:id="@+id/moment1"
-        android:icon="@drawable/ic_moment"
-        android:title="Moment"/>
-    <item android:id="@+id/hightlights1"
-        android:icon="@drawable/ic_hot"
-        android:title="Hightlights"/>
-
-    <item android:id="@+id/profile2"
-        android:icon="@drawable/ic_person_black_24dp"
-        android:title="Profile"/>
-    <item android:id="@+id/list2"
-        android:icon="@drawable/ic_list"
-        android:title="Lists"/>
-    <item android:id="@+id/moment2"
-        android:icon="@drawable/ic_moment"
-        android:title="Moment"/>
-    <item android:id="@+id/hightlights2"
-        android:icon="@drawable/ic_hot"
-        android:title="Hightlights"/>
-
-    <item android:id="@+id/profile3"
-        android:icon="@drawable/ic_person_black_24dp"
-        android:title="Profile"/>
-    <item android:id="@+id/list3"
-        android:icon="@drawable/ic_list"
-        android:title="Lists"/>
-    <item android:id="@+id/moment3"
-        android:icon="@drawable/ic_moment"
-        android:title="Moment"/>
-    <item android:id="@+id/hightlights3"
-        android:icon="@drawable/ic_hot"
-        android:title="Hightlights"/>
 </menu>

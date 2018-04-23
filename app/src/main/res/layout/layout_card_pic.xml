@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:contentPaddingRight="10dp"
+        app:contentPaddingLeft="10dp"
+        app:cardMaxElevation="15dp">
+
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/cardMain"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cardImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/orizuru"
+                app:civ_border_color="#FF0099"
+                app:civ_border_width="1dp"
+                android:layout_gravity="top" />
+<LinearLayout
+    android:layout_width="80dp"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/cardRep1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="#ffffff"
+                    android:layout_gravity="center" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/cardRep2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="#ffffff"
+
+                    android:layout_gravity="center" />
+</LinearLayout>
+                <TextView
+                    android:id="@+id/card_timekey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="1dp"
+                    android:text="timekey"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/Name"
+                        android:text="Card Title"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/ic_check_cardview" />
+                        <ImageView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/ic_hart_cardview" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical"
+                    android:text="keikaiakaiiekeimfgasddd"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/imageCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="120dp"
+                    android:src="@drawable/profile"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/time"
+                    android:hint="1h"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:textSize="10dp"
+                    android:textStyle="normal"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

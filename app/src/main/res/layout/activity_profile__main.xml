@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toki.merge_include.Lists_Main">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/tab_layout_profile"/>
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_add_photo"
+            android:background="@drawable/white_gray_bordor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add the userId"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/profile_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditTextStyle"/>
+
+        <Button
+            android:clickable="true"
+            android:id="@+id/profile_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:text="add"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_white" />
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
